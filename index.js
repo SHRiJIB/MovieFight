@@ -13,7 +13,7 @@ const configObj = {
     return option.Title;
   },
   async fetchData(searchTerm) {
-    const response = await axios.get("http://www.omdbapi.com/", {
+    const response = await axios.get("https://www.omdbapi.com/", {
       params: {
         apikey: "7e6e41d6",
         s: searchTerm,
